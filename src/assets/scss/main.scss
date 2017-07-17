@@ -1,0 +1,33 @@
+*{
+  background-color: red;
+}
+.letra {
+  position: relative;
+  width: 100px;
+}
+
+.letra-i {
+  height: 150px;
+  width: 60px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.letra-i:before {
+  content: ' ';
+  width: 100px;
+  height: 25px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+}
+
+.letra-i:after {
+  content: ' ';
+  width: 100px;
+  height: 25px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

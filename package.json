@@ -1,0 +1,24 @@
+{
+  "name": "gulp-sencillo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001bserver.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "concat": "^1.0.3",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "sass": "^1.0.0-beta.2",
+    "uglify": "^0.1.5"
+  }
+}
